@@ -1,0 +1,254 @@
+/*
+* Prefixed by https://autoprefixer.github.io
+* PostCSS: v8.4.14,
+* Autoprefixer: v10.4.7
+* Browsers: last 4 version
+*/
+
+/* HEADER */
+header {
+    background-color: #fff;
+    padding: 24px 0;
+}
+
+.header-container {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+
+.site-logo {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+
+.site-logo-img {
+    margin-right: 16px;
+}
+
+.site-logo-text {
+    color: #000;
+    font-size: 24px;
+    font-weight: 600;
+}
+
+.nav-list {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    list-style: none;
+    gap: 32px;
+}
+
+.nav-itms,
+a {
+    /* margin-right: 32px; */
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    color: #222;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: 150%;
+    /* 21px */
+    letter-spacing: 2px;
+    text-transform: uppercase;
+
+}
+
+.nav-list {
+    color: #000;
+}
+/* ---------------------------------------- */
+
+/* MAIN */
+
+/* HERO */
+.hero{
+    background: #0EB4C1;
+    padding-top: 29px;
+}
+.hero-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.hero-content{
+    color: #fff;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+.hero-title{
+    width: 100%;
+    max-width: 500px;
+    margin-bottom: 16px;
+}
+.hero-desc{
+    width: 100%;
+    max-width: 440px;
+    margin-bottom: 36px;
+}
+/* ---------------------------------------- */
+
+/* SERVICES */
+.services{
+    background-color: #fff;
+    padding: 120px 0;
+    
+}
+.services-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    gap: 60px;
+}
+.services-title{
+    margin-top: 120px;
+    font-size: 36px;
+}
+.services-list{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 80px;
+}
+.services-item{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+}
+.services-item-img{
+    border-radius: 24px;
+    margin-right: 64px;
+}
+.services-item-desc{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    width:100% ;
+    max-width: 600px;
+    
+}
+.services-item-desc h3{
+    margin-bottom: 24px;
+}
+
+/* ---------------------------------------- */
+
+
+/* CONTACT */
+.contact{
+    background: #0EB4C1;
+    color: #fff;
+    padding: 64px 0;
+    margin-top: 120px;
+}
+.contact-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: center;
+        -ms-flex-pack: center;
+            justify-content: center;
+    -webkit-box-orient: vertical;
+    -webkit-box-direction: normal;
+        -ms-flex-direction: column;
+            flex-direction: column;
+    gap: 40px;
+}
+.contact-links{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    gap: 40px;
+}
+.contact-link{
+    display: inline-block;
+    padding: 12px 24px;
+    border-radius: 8px;
+    border: 2px solid #fff;
+    color: #fff;
+}
+/* ---------------------------------------- */
+
+/* FOOTER */
+footer{
+    background-color: #000;
+    padding: 24px 0;
+}
+.footer-container{
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-align: center;
+        -ms-flex-align: center;
+            align-items: center;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between;
+}
+footer .site-logo-text{
+    color: #fff;
+}
+footer .nav-link{
+    color: #fff;
+}
+
+
+/* togirlash kodlari */
+.nav-itms,a:hover{
+    color: chartreuse;
+}
+.nav-itms1{
+    color: #fff;
+}
+.nav-itms2{
+    color: #fff;
+}
+.nav-itms3{
+    color: #fff;
+}
+.nav-itms4{
+    color: #fff;
+}
+.nav-itms5{
+    color: #fff;
+}
+.ansormed{
+    margin-left: 70px;
+}
